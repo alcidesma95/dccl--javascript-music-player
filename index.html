@@ -16,14 +16,14 @@
       </section>
       <div class="indicators">
         <div class="counters">
-          <span class="counter-item">1:30</span>
-          <span class="counter-item">2:18</span>
+          <span id="current_time" class="counter-item">00:00</span>
+          <span id="total_time" class="counter-item"></span>
         </div>
-        <div class="full_bar">
-          <div class="progress_bar"></div>
+        <div id="full_bar" style="width: 100%;" class="full_bar">
+          <div id="progress_bar" class="progress_bar" ></div>
         </div>
       </div>
-    <audio id="player" src="assets/forest-lullaby-110624.mp3" ></audio>
+    <audio id="player" src="assets/lost-in-city-lights-145038.mp3" preload="metadata"></audio>
 
     <section class="actions">
       <button id="preview" type="button" class="btn"><img src="assets/Stop_and_play_fill.svg" alt=""></button>
